@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Outside Collection Sans";
+    src: url("Fonts\Outside Collection Sans.ttf");
+}
+
+header {
+    background-color: #baf3ec;
+    height: 120px;
+}
+
+header h1 {
+    font-family: "Outside Collection Sans";
+    font-size: 65px;
+}
+body {
+    background-color: #e3e4db;
+}
+
+.topnav{
+    font-family: "Outside Collection Sans";
+    font-size: 20px;
+    font-weight: 800;
+}
+a:link, a:visited {
+    background-color: rgb(36, 128, 0);
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   display: inline-block;
+}
+a:hover {
+    color: #000000;
+}
+.home {
+    padding-right: 5px;
+}
+.company {
+    padding-right: 5px;
+}
+.services {
+    padding-right: 5px;
+}
+.contact {
+    padding-right: 5px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 45px;
+}
