@@ -2,11 +2,12 @@
     font-family: "Outside Collection Sans";
     src: url("Fonts\Outside Collection Sans.ttf");
 }
-
-header {
-    background-color: #baf3ec;
-    height: 120px;
-}
+header img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border: none;
+    }
 
 header h1 {
     font-family: "Outside Collection Sans";
@@ -53,4 +54,7 @@ a:hover {
 .navbar {
     background-color: #ffffff;
     height: 45px;
+}
+.goldpuzzle {
+    background-size: auto;
 }
